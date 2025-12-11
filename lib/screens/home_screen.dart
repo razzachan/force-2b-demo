@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Force 2B'),
+        title: const Text('Sellers Force'),
         actions: [
           IconButton(
             icon: Stack(

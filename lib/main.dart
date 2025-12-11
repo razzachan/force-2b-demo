@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Force 2B - MVP Demo',
+      title: 'Sellers Force - MVP Demo',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.theme,
       home: const LoginScreen(),

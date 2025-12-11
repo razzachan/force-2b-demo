@@ -121,7 +121,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                       
                       // Título
                       Text(
-                        'Force 2B',
+                        'Sellers Force',
                         style: Theme.of(context).textTheme.displayMedium,
                       ),
                       const SizedBox(height: 8),
