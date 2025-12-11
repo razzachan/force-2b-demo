@@ -39,6 +39,12 @@ Este é um **MVP Demo funcional** do Force 2B, desenvolvido para apresentação 
 - **Alertas específicos da IA** quando em risco
 - **Gráfico de histórico de compras** (6 meses)
 - Lista de produtos mais comprados
+- **Sistema de Check-in/Check-out**:
+  - Botão de check-in ao entrar na visita
+  - Registro de horário e localização (mockado)
+  - Check-out com duração da visita
+  - Observações da visita
+  - Status do pedido (realizado/não realizado)
 - Sugestões de ações da IA
 
 #### 5. **Novo Pedido com IA**
@@ -74,11 +80,13 @@ Este é um **MVP Demo funcional** do Force 2B, desenvolvido para apresentação 
 
 ### 📊 Dados Mockados
 
-- **6 clientes** com perfis variados
+- **6 clientes** com perfis variados (alto, médio e baixo risco)
 - **10 produtos** em diferentes categorias
 - **4 alertas** ativos de diferentes tipos
-- Históricos realistas de compra
+- **Sistema de visitas** com check-in/check-out funcional
+- Históricos realistas de compra (últimos 6 meses)
 - Métricas calculadas dinamicamente
+- GPS mockado para demonstração de localização
 
 ### 🛠 Tecnologias Utilizadas
 
@@ -88,7 +96,13 @@ Este é um **MVP Demo funcional** do Force 2B, desenvolvido para apresentação 
 - **Google Fonts** - Tipografia
 - **Material Design 3** - Design system
 
-### 🚀 Como Executar
+### 🌐 Demo Online
+
+**Acesse o app funcionando agora:**
+- **URL Principal**: https://force2bdemo.vercel.app
+- **GitHub**: https://github.com/razzachan/force-2b-demo
+
+### 🚀 Como Executar Localmente
 
 #### Executar no Navegador
 ```powershell
@@ -104,6 +118,20 @@ O aplicativo abrirá automaticamente no Chrome.
 ```
 
 Os arquivos estarão em `build/web/`
+
+### 🔧 Deploy na Vercel
+
+O projeto está configurado para deploy automático via Git:
+
+```powershell
+# Fazer commit das mudanças
+git add .
+git commit -m "Sua mensagem"
+git push
+
+# Deploy manual (se necessário)
+vercel --prod
+```
 
 ### 📱 Navegação do App
 
